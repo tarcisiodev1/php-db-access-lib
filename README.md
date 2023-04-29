@@ -30,7 +30,7 @@ Uma vez instanciada a classe, você pode usar os métodos **execute_query** e **
 
 
 
-O método execute_query é usado para executar consultas SQL que retornam resultados. Ele retorna um objeto padrão contendo informações sobre o resultado da consulta, incluindo os resultados em si, o número de linhas afetadas e o último ID inserido (se houver). Exemplo:
+O método **execute_query** é usado para executar consultas SQL que retornam resultados. Ele retorna um objeto padrão contendo informações sobre o resultado da consulta, incluindo os resultados em si, o número de linhas afetadas e o último ID inserido (se houver). Exemplo:
 
 ```php
 
@@ -51,7 +51,7 @@ if ($result->status == 'success') {
 
 
 
-O método execute_non_query é usado para executar consultas SQL que não retornam resultados, como inserções, atualizações ou exclusões de dados. Ele retorna um objeto padrão contendo informações sobre o resultado da consulta, incluindo o número de linhas afetadas e o último ID inserido (se houver). Exemplo:
+O método **execute_non_query** é usado para executar consultas SQL que não retornam resultados, como inserções, atualizações ou exclusões de dados. Ele retorna um objeto padrão contendo informações sobre o resultado da consulta, incluindo o número de linhas afetadas e o último ID inserido (se houver). Exemplo:
 
 ```php
 
@@ -72,7 +72,7 @@ if ($result->status == 'success') {
 
 
 
-Você pode configurar o tipo de retorno padrão passando um segundo parâmetro para o construtor da classe. O valor padrão é 'object', que retorna os resultados como objetos. Se você quiser que os resultados sejam retornados como arrays associativos em vez de objetos, basta passar 'array' como segundo parâmetro. Exemplo:
+Você pode configurar o tipo de retorno padrão passando um segundo parâmetro para o construtor da classe. O valor padrão é **'object'**, que retorna os resultados como objetos. Se você quiser que os resultados sejam retornados como arrays associativos em vez de objetos, basta passar **'array'** como segundo parâmetro. Exemplo:
 
 ```php
 
