@@ -5,7 +5,7 @@ Esta é uma biblioteca PHP simples para facilitar a execução de consultas SQL 
 
 ## Como usar
 
----
+
 
 Para usar a biblioteca, primeiro você precisará incluir o arquivo database.php no seu projeto e instanciar a classe Database, passando as configurações do banco de dados como parâmetros. Por exemplo:
 
