@@ -9,6 +9,7 @@ Esta é uma biblioteca PHP simples para facilitar a execução de consultas SQL 
 
 Para usar a biblioteca, primeiro você precisará incluir o arquivo database.php no seu projeto e instanciar a classe Database, passando as configurações do banco de dados como parâmetros. Por exemplo:
 
+
 ```php
 Use libDb\Database;
 require_once 'database.php';
@@ -27,7 +28,7 @@ Uma vez instanciada a classe, você pode usar os métodos **execute_query** e **
 
 ## Método execute_query
 
----
+
 
 O método execute_query é usado para executar consultas SQL que retornam resultados. Ele retorna um objeto padrão contendo informações sobre o resultado da consulta, incluindo os resultados em si, o número de linhas afetadas e o último ID inserido (se houver). Exemplo:
 
@@ -47,7 +48,8 @@ if ($result->status == 'success') {
 
 ## Método execute_non_query
 
----
+
+
 
 O método execute_non_query é usado para executar consultas SQL que não retornam resultados, como inserções, atualizações ou exclusões de dados. Ele retorna um objeto padrão contendo informações sobre o resultado da consulta, incluindo o número de linhas afetadas e o último ID inserido (se houver). Exemplo:
 
@@ -67,7 +69,8 @@ if ($result->status == 'success') {
 
 ## Configurações adicionais
 
----
+
+
 
 Você pode configurar o tipo de retorno padrão passando um segundo parâmetro para o construtor da classe. O valor padrão é 'object', que retorna os resultados como objetos. Se você quiser que os resultados sejam retornados como arrays associativos em vez de objetos, basta passar 'array' como segundo parâmetro. Exemplo:
 
