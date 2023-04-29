@@ -1,6 +1,6 @@
 <?php
 
-namespace libDb;
+namespace libDb
 
 use PDO;
 use PDOException;
