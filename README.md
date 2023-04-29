@@ -1,5 +1,5 @@
 # PHP Database Access Library
-====================================
+
 
 Esta é uma biblioteca PHP simples para facilitar a execução de consultas SQL em bancos de dados MySQL. Ela pode ser útil para você se estiver procurando uma maneira fácil de se conectar a um banco de dados e executar consultas sem precisar escrever código repetitivo.
 
