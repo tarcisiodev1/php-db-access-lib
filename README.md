@@ -81,4 +81,4 @@ $db = new libDb\Database($cfg_options, 'array');
 
 ## Considerações finais
 
-Esta biblioteca é fornecida sem garantias, expressas ou implícitas. Use-a por sua conta e risco. Se você encontrar algum bug ou tiver alguma sugestão de melhoria, sinta-se à vontade para abrir uma issue no repositório do projeto no GitHub.
+Esta biblioteca é fornecida sem garantias, expressas ou implícitas. Use-a por sua conta e risco. Se você encontrar algum bug ou tiver alguma sugestão de melhoria, sinta-se à vontade para abrir uma issue no repositório do projeto no GitHub. lincença
